@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+body {
+    background-image: url(ratatouille_3.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "ff-good-headline-web-pro-con", sans-serif;
+}
+#preload { 
+    display: none; 
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        margin: auto;
+    }
+    #menubutton img {
+        width: 32px;
+        float: left;
+        margin: 20px;
+        padding-right: 2em;
+    }
+    
+    #logo {
+        width: 190px;
+        margin: auto;
+    }
+    #logo img {
+        width: 190px;
+    }
+    nav {
+        background-color: white;
+        height: 100px;
+    }
+    h1 {
+        color: white;
+        text-align: center;
+        padding-top: 3em;
+        font-size: 55px;
+        text-shadow: 2px 2px #494949;
+        font-weight: 400;
+    }
+    footer {
+        height: 200px;
+        background-color: white;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        border-top: 4px solid #38728b;
+    }
+    #info {
+        width: 49.5%;
+        float: left;
+        text-align: center;
+        height: 65px;
+        border: 1px solid #f6f6f6;
+        padding-top: 12px;
+        font-weight: 400;
+    }
+    #info2 {
+        width: 49.5%;
+        float: right;
+        text-align: center;
+        height: 65px;
+        border: 1px solid #f6f6f6;
+        padding-top: 12px;
+        font-weight: 400;
+    }
+    #reservation {
+        clear: both;
+        border-top: 1px solid #f6f6f6;
+        margin: auto;
+    }
+    #reservation h3 {
+        width: 80%;
+        background-color: #38728b;
+        height: 45px;
+        color: white;
+        margin: auto;
+        margin-top: 15px;
+        text-align: center;
+        padding-top: 26px;
+        border-radius: 10px;
+        text-shadow: 2px 2px #494949;
+        font-weight: 400;
+    }
+    #reservation h3:hover {
+        background-color: #85adb4;
+    }
+    #reservation a {
+        text-decoration: none;
+    }
+}
