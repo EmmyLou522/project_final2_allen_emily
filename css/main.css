@@ -1,7 +1,7 @@
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
+margin: 0;
+padding: 0;
+border: 0;
 }
 
 article,aside,details,figcaption,figure,
@@ -25,358 +25,392 @@ body {
     background-size: cover;
     font-family: "ff-good-headline-web-pro-con", sans-serif;
 }
-#preload { 
-    display: none; 
-}
 
 /* for mobile */
 @media screen and (max-width: 768px) {
-    header {
-        width: 100%;
-        margin: auto;
+header {
+    width: 100%;
+    margin: auto;
+}
+#menubutton img {
+    width: 32px;
+    float: left;
+    margin: 20px;
+    padding-right: 2em;
+}
+#linksleft {
+    display: none;
     }
-    #menubutton img {
-        width: 32px;
-        float: left;
-        margin: 20px;
-        padding-right: 2em;
-    }
-    #linksleft {
-        display: none;
-    }
-    #linksright {
-        display: none;
-    }
-    #logo {
-        width: 190px;
-        margin: auto;
-    }
-    #logo img {
-        width: 190px;
-    }
-    nav {
-        background-color: white;
-        height: 100px;
-    }
-    h1 {
-        color: white;
-        text-align: center;
-        padding-top: 3em;
-        font-size: 65px;
-        text-shadow: 2px 2px #494949;
-        font-family: slmEverlie;
-    }
-    footer {
-        height: 200px;
-        background-color: white;
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-        border-top: 4px solid #38728b;
-    }
-    #linktomenu {
-        width: 49.5%;
-        float: left;
-        text-align: center;
-        height: 65px;
-        border: 1px solid #f6f6f6;
-        padding-top: 12px;
-        font-weight: 400;
-        font-size: 15px;
-    }
-    #phone {
-        width: 49.5%;
-        float: right;
-        text-align: center;
-        height: 65px;
-        border: 1px solid #f6f6f6;
-        padding-top: 12px;
-        font-weight: 400;
-        font-size: 15px;
-    }
-    #location {
-        display: none;
-    }
-    #reservation {
-        clear: both;
-        border-top: 1px solid #f6f6f6;
-        margin: auto;
-    }
-    #reservation h3 {
-        width: 80%;
-        background-color: #38728b;
-        height: 45px;
-        color: white;
-        margin: auto;
-        margin-top: 15px;
-        text-align: center;
-        padding-top: 26px;
-        border-radius: 10px;
-        text-shadow: 2px 2px #494949;
-        font-weight: 400;
-    }
-    #reservation h3:hover {
-        background-color: #85adb4;
-    }
-    #reservation a {
-        text-decoration: none;
-    }
-    #reservation a:visited {
-        text-decoration: none;
-    }
+#linksright {
+    display: none;
+}
+#logo {
+    width: 190px;
+    margin: auto;
+}
+#logo img {
+    width: 190px;
+}
+nav {
+    background-color: white;
+    height: 100px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 3em;
+    font-size: 65px;
+    text-shadow: 2px 2px #494949;
+    font-family: slmEverlie;
+}
+h2 {
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    text-shadow 2px 2px #494949;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+footer {
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 4px solid #38728b;
+}
+#linktomenu {
+    width: 49.5%;
+    float: left;
+    text-align: center;
+    height: 3rem;
+    border: 1px solid #f6f6f6;
+    padding-top: 1.95em;
+    font-weight: 400;
+    font-size: 15px;
+}
+#phone {
+    width: 49.5%;
+    float: right;
+    text-align: center;
+    height: 3rem;
+    border: 1px solid #f6f6f6;
+    padding-top: 1.95em;
+    font-weight: 400;
+    font-size: 15px;
+}
+#location {
+    display: none;
+}
+#reservation {
+    clear: both;
+    border-top: 1px solid #f6f6f6;
+    margin: auto;
+}
+#reservation h3 {
+    width: 80%;
+    background-color: #38728b;
+    height: 45px;
+    color: white;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 26px;
+    border-radius: 10px;
+    text-shadow: 2px 2px #494949;
+    font-weight: 400;
+}
+#reservation h3:hover {
+    background-color: #85adb4;
+}
+#reservation a {
+    text-decoration: none;
+}
+#reservation a:visited {
+    text-decoration: none;
+}
 }
 
 /* for tablet */
-@media screen and (min-width: 769px) and (max-width: 896px) {
-    header {
-        width: 100%;
-        margin: auto;
-    }
-    #menubutton img {
-        display: none;
-    }
+@media screen and (min-width: 769px) and (max-width: 869px) {
+header {
+    width: 100%;
+    margin: auto;
+}
+#menubutton img {
+    visibility: hidden;
+}
     
-    #linksleft {
-        height: 20px;
-        margin-top: 20px;
-        display: inline;
-        width: 250px;
-        float: left;
-    }
-    #linksleft ul li {
-        display: inline;
-        float: left;
-    }
-    #linksleft ul li a {
-        text-decoration: none;
-        color: black;
-        padding-left: 20px;
-    }
+#linksleft {
+    height: 82px;
+    display: inline;
+    width: 33%;
+    float: left;
+    margin-top: 5px;
+    text-align: right;
+}
+#linksleft ul li {
+    display: inline; 
+    padding-left: 1.5em;
+}
+#linksleft ul li:nth-child(2) {
+    padding-right: 1.5em;
+}
+#linksleft ul li a {
+    text-decoration: none;
+    color: black;
+}
     
-    #linksright {
-        height: 20px;
-        margin-top: 20px;
-        width: 270px;
-        float: right;
-        display: inline;
-    }
-    #linksright ul li {
-        display: inline;
-    }
-    #linksright ul li a {
-        text-decoration: none;
-        color: black;
-        padding-right: 20px;
-    }
-    #logo {
-        width: 190px;
-        margin: auto;
-    }
-    #logo img {
-        width: 190px;
-    }
-    nav {
-        height: 150px;
-    }
-    h1 {
-        color: white;
-        text-align: center;
-        padding-top: 3em;
-        font-size: 55px;
-        text-shadow: 2px 2px #494949;
-        font-family: slmEverlie;
-    }
-    footer {
-        height: 100px;
-        background-color: white;
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-        border-top: 4px solid #38728b;
-        padding-top: 2em;
-    }
-    #linktomenu {
-        width: 24.2%;
-        float: left;
-        text-align: center;
-        height: 65px;
-        border: 1px solid #f6f6f6;
-        padding-top: 12px;
-        font-weight: 400;
-        font-size: 15px;
-    }
-    #phone {
-        width: 24.2%;
-        float: left;
-        text-align: center;
-        height: 65px;
-        border: 1px solid #f6f6f6;
-        padding-top: 12px;
-        font-weight: 400;
-        font-size: 15px;
-    }
-    #location {
-        width: 24.2%;
-        float: left;
-        text-align: center;
-        height: 65px;
-        border: 1px solid #f6f6f6;
-        padding-top: 12px;
-        font-weight: 400;
-        font-size: 15px;
-    }
-    #reservation {
-        float: right;
-        width: 24.2%;
-        border-top: 1px solid #f6f6f6;
-        margin: auto;
-        padding-right: 10px;
-    }
-    #reservation h3 {
-        width: 100%;
-        background-color: #38728b;
-        height: 45px;
-        color: white;
-        margin-top: 5px;
-        text-align: center;
-        padding-top: 12px;
-        padding-right: px;
-        border-radius: 10px;
-        text-shadow: 2px 2px #494949;
-        font-weight: 400;
-    }
-    #reservation h3:hover {
-        background-color: #85adb4;
-    }
-    #reservation a {
-        text-decoration: none;
-    }
+#linksright {
+    height: 82px;
+    display: inline;
+    width: 33%;
+    float: right;
+    margin-top: 5px;
+    text-align: left;
+}
+#linksright ul li {
+    display: inline;
+    padding-left: 1.5em;
+}
+#linksright ul li a {
+    text-decoration: none;
+    color: black;
+}
+#logo {
+    width: 33%;
+    float: left;
+    margin-top: -30px;
+}
+#logo img {
+    width: 100%;
+    margin: auto;
+}
+nav {
+    height: 130px;
+    background-color: white;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 3em;
+    text-shadow: 2px 2px #494949;
+    font-family: slmEverlie;
+    font-size: 5.5em;
+}
+h2 {
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    text-shadow 2px 2px #494949;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+footer {
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 4px solid #38728b;
+    padding-top: 2em;
+}
+#linktomenu {
+    width: 24.2%;
+    float: left;
+    text-align: center;
+    height: 3rem;
+    border: 1px solid #f6f6f6;
+    padding-top: 1.95em;
+    font-weight: 400;
+    font-size: 15px;
+}
+#phone {
+    width: 24.2%;
+    float: left;
+    text-align: center;
+    height: 3rem;
+    border: 1px solid #f6f6f6;
+    padding-top: 1.95em;
+    font-weight: 400;
+    font-size: 15px;
+}
+#location {
+    width: 24.2%;
+    float: left;
+    text-align: center;
+    height: 3rem;
+    border: 1px solid #f6f6f6;
+    padding-top: 1.95em;
+    font-weight: 400;
+    font-size: 15px;
+}
+#reservation {
+    float: right;
+    width: 24.2%;
+    border-top: 1px solid #f6f6f6;
+    margin: auto;
+    padding-right: 10px;
+}
+#reservation h3 {
+    width: 100%;
+    background-color: #38728b;
+    height: 45px;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 1.3em;
+    border-radius: 10px;
+    text-shadow: 2px 2px #494949;
+    font-weight: 400;
+}
+#reservation h3:hover {
+    background-color: #85adb4;
+}
+#reservation a {
+    text-decoration: none;
+}
 }
 
 /* for desktop */
 @media screen and (min-width: 870px) {
-    header {
-        width: 100%;
-        margin: auto;
-    }
-    #menubutton img {
-        display: none;
-    }
-    
-    #linksleft {
-        height: 20px;
-        margin-top: 20px;
-        display: inline;
-        width: 250px;
-        float: left;
-    }
-    #linksleft ul li {
-        display: inline;
-        float: left;
-    }
-    #linksleft ul li a {
-        text-decoration: none;
-        color: black;
-        padding-left: 20px;
-    }
-    
-    #linksright {
-        height: 20px;
-        margin-top: 20px;
-        width: 270px;
-        float: right;
-        display: inline;
-    }
-    #linksright ul li {
-        display: inline;
-    }
-    #linksright ul li a {
-        text-decoration: none;
-        color: black;
-        padding-right: 20px;
-    }
-    #logo {
-        width: 190px;
-        margin: auto;
-    }
-    #logo img {
-        width: 190px;
-    }
-    nav {
-        height: 150px;
-    }
-    h1 {
-        color: white;
-        text-align: center;
-        padding-top: 1em;
-        font-size: 55px;
-        text-shadow: 2px 2px #494949;
-        font-family: slmEverlie;
-        font-size: 85px;
-    }
-    footer {
-        height: 100px;
-        background-color: white;
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-        border-top: 4px solid #38728b;
-        padding-top: 2em;
-    }
-    #linktomenu {
-        width: 24.2%;
-        float: left;
-        text-align: center;
-        height: 65px;
-        border: 1px solid #f6f6f6;
-        padding-top: 12px;
-        font-weight: 400;
-        font-size: 15px;
-    }
-    #phone {
-        width: 24.2%;
-        float: left;
-        text-align: center;
-        height: 65px;
-        border: 1px solid #f6f6f6;
-        padding-top: 12px;
-        font-weight: 400;
-        font-size: 15px;
-    }
-    #location {
-        width: 24.2%;
-        float: left;
-        text-align: center;
-        height: 65px;
-        border: 1px solid #f6f6f6;
-        padding-top: 12px;
-        font-weight: 400;
-        font-size: 15px;
-    }
-    #reservation {
-        float: right;
-        width: 24.2%;
-        border-top: 1px solid #f6f6f6;
-        margin: auto;
-        padding-right: 10px;
-    }
-    #reservation h3 {
-        width: 100%;
-        background-color: #38728b;
-        height: 45px;
-        color: white;
-        margin-top: 5px;
-        text-align: center;
-        padding-top: 12px;
-        padding-right: px;
-        border-radius: 10px;
-        text-shadow: 2px 2px #494949;
-        font-weight: 400;
-    }
-    #reservation h3:hover {
-        background-color: #85adb4;
-    }
-    #reservation a {
-        text-decoration: none;
-    }
+header {
+    width: 100%;
+    margin: auto;
 }
+#menubutton img {
+    visibility: hidden;
+}
+    
+#linksleft {
+    height: 82px;
+    display: inline;
+    width: 33%;
+    float: left;
+    margin-top: 5px;
+    text-align: right;
+}
+#linksleft ul li {
+    display: inline; 
+    padding-left: 1.5em;
+}
+#linksleft ul li:nth-child(2) {
+    padding-right: 1.5em;
+}
+#linksleft ul li a {
+    text-decoration: none;
+    color: black;
+}
+    
+#linksright {
+    height: 82px;
+    display: inline;
+    width: 33%;
+    float: right;
+    margin-top: 5px;
+    text-align: left;
+}
+#linksright ul li {
+    display: inline;
+    padding-left: 1.5em;
+}
+#linksright ul li a {
+    text-decoration: none;
+    color: black;
+}
+#logo {
+    width: 33%;
+    float: left;
+    margin-top: -30px;
+}
+#logo img {
+    width: 294px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    height: 130px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 3em;
+    text-shadow: 2px 2px #494949;
+    font-family: slmEverlie;
+    font-size: 5.5em;
+}
+h2 {
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    text-shadow 2px 2px #494949;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+footer {
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 4px solid #38728b;
+    padding-top: 2em;
+}
+#linktomenu {
+    width: 24.2%;
+    float: left;
+    text-align: center;
+    height: 3rem;
+    border: 1px solid #f6f6f6;
+    padding-top: 1.95em;
+    font-weight: 400;
+    font-size: 15px;
+}
+#phone {
+    width: 24.2%;
+    float: left;
+    text-align: center;
+    height: 3rem;
+    border: 1px solid #f6f6f6;
+    padding-top: 1.95em;
+    font-weight: 400;
+    font-size: 15px;
+}
+#location {
+    width: 24.2%;
+    float: left;
+    text-align: center;
+    height: 3rem;
+    border: 1px solid #f6f6f6;
+    padding-top: 1.95em;
+    font-weight: 400;
+    font-size: 15px;
+}
+#reservation {
+    float: right;
+    width: 24.2%;
+    border-top: 1px solid #f6f6f6;
+    margin: auto;
+    padding-right: 10px;
+}
+#reservation h3 {
+    width: 100%;
+    background-color: #38728b;
+    height: 44px;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 1.3em;
+    border-radius: 10px;
+    text-shadow: 2px 2px #494949;
+    font-weight: 400;
+}
+#reservation h3:hover {
+    background-color: #85adb4;
+}
+#reservation a {
+    text-decoration: none;
+}
+}
+
