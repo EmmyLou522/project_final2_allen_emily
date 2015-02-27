@@ -34,7 +34,7 @@ header {
 h1 {
     color: white;
     text-align: center;
-    padding-top: 3em;
+    padding-top: 2em;
     text-shadow: 2px 2px #494949;
     font-family: slmEverlie;
     font-size: 5.5em;
@@ -44,13 +44,21 @@ h2 {
     color: white;
     text-align: center;
     padding-top: 1em;
-    text-shadow 2px 2px #494949;
+    text-shadow: 2px 2px #494949;
     font-weight: 400;
     font-size: 1.5em;
 }
 
-a:visited {
-    text-decoration: none:
+a:link {
+    text-decoration: none;
+}
+
+#linksleft a:hover {
+    text-decoration: underline;
+}
+
+#linksleft a:visited {
+    text-decoration: none;
     color: black;
 }
 
@@ -73,6 +81,14 @@ a:visited {
 }
 
 #linksleft ul li a {
+    color: black;
+}
+
+#linksright a:hover {
+    text-decoration: underline;
+}
+
+#linksright a:visited {
     text-decoration: none;
     color: black;
 }
@@ -92,7 +108,6 @@ a:visited {
 }
 
 #linksright ul li a {
-    text-decoration: none;
     color: black;
 }
 
@@ -127,6 +142,10 @@ a:visited {
     padding-top: 1.95em;
     font-weight: 400;
     font-size: 15px;
+}
+
+#reservation a:hover {
+    text-decoration: none;
 }
 
 #reservation h3 {
@@ -208,7 +227,7 @@ footer {
     border-top: 1px solid #f6f6f6;
     margin: auto;
 }
-    
+
 #reservation h3 {
     width: 80%;
     margin: auto;
@@ -238,15 +257,6 @@ footer {
 nav {
     height: 130px;
     background-color: white;
-}
-    
-h1 {
-    color: white;
-    text-align: center;
-    padding-top: 3em;
-    text-shadow: 2px 2px #494949;
-    font-family: slmEverlie;
-    font-size: 5.5em;
 }
     
 footer {
@@ -294,15 +304,6 @@ header {
     
 nav {
     height: 130px;
-}
-    
-h1 {
-    color: white;
-    text-align: center;
-    padding-top: 3em;
-    text-shadow: 2px 2px #494949;
-    font-family: slmEverlie;
-    font-size: 5.5em;
 }
     
 footer {
