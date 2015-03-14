@@ -11,7 +11,7 @@ footer,header,hgroup,menu,nav,section {
 
 @font-face {
     font-family: slmEverlie;
-    src: url(slm_everlie.otf);
+    src: url(../fonts/slm_everlie.otf);
 }
 
 body {
