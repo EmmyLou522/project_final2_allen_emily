@@ -15,7 +15,7 @@ footer,header,hgroup,menu,nav,section {
 }
 
 body {
-    background-image: url(ratatouille_3.jpg);
+    background-image: url(../img/ratatouille_3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
