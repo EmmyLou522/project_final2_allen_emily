@@ -5,20 +5,20 @@ border: 0;
 }
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
+footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
 @font-face {
     font-family: slmEverlie;
-    src: url(slm_everlie.otf);
+    src: url(../fonts/slm_everlie.otf);
 }
 
 body {
-    background-image: url(ratatouille_3.jpg);
-    background-repeat: no-repeat; 
+    background-image: url(../img/ratatouille_3.jpg);
+    background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -72,7 +72,7 @@ a:link {
 }
 
 #linksleft ul li {
-    display: inline; 
+    display: inline;
     padding-left: 1.5em;
 }
 
@@ -101,7 +101,7 @@ a:link {
     margin-top: 5px;
     text-align: left;
 }
-    
+
 #linksright ul li {
     display: inline;
     padding-left: 1.5em;
@@ -173,29 +173,29 @@ a:link {
     margin: 20px;
     padding-right: 2em;
 }
-    
+
 #linksleft {
     display: none;
 }
-    
+
 #linksright {
     display: none;
 }
-    
+
 #logo {
     width: 190px;
     margin: auto;
 }
-    
+
 #logo img {
     width: 190px;
 }
-    
+
 nav {
     background-color: white;
     height: 100px;
 }
-    
+
 h1 {
     font-size: 65px;
 }
@@ -208,20 +208,20 @@ footer {
     width: 100%;
     border-top: 4px solid #38728b;
 }
-    
+
 #linktomenu {
     width: 49.5%;
 }
-    
+
 #phone {
     width: 49.5%;
     float: right;
 }
-    
+
 #location {
     display: none;
 }
-    
+
 #reservation {
     clear: both;
     border-top: 1px solid #f6f6f6;
@@ -248,17 +248,17 @@ footer {
     float: left;
     margin-top: -30px;
 }
-    
+
 #logo img {
     width: 100%;
     margin: auto;
 }
-    
+
 nav {
     height: 130px;
     background-color: white;
 }
-    
+
 footer {
     height: 100px;
     background-color: white;
@@ -268,7 +268,7 @@ footer {
     border-top: 4px solid #38728b;
     padding-top: 2em;
 }
-    
+
 #reservation {
     float: right;
     width: 24.2%;
@@ -284,28 +284,28 @@ header {
     width: 100%;
     margin: auto;
 }
-    
+
 #menubutton img {
     visibility: hidden;
 }
-    
+
 #logo {
     width: 33%;
     float: left;
     margin-top: -30px;
 }
-    
+
 #logo img {
     width: 294px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-    
+
 nav {
     height: 130px;
 }
-    
+
 footer {
     height: 100px;
     background-color: white;
@@ -315,7 +315,7 @@ footer {
     border-top: 4px solid #38728b;
     padding-top: 2em;
 }
-    
+
 #reservation {
     float: right;
     width: 24.2%;
@@ -323,7 +323,7 @@ footer {
     margin: auto;
     padding-right: 10px;
 }
-    
+
 #reservation h3 {
     height: 44px;
 }
